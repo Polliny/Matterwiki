@@ -1,8 +1,8 @@
 {
   "name": "matterwiki-api",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "The API project for matterwiki",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "cross-env DB_NAME=matterwiki_dev src/node server.js",
     "prod": "cross-env NODE_ENV=production nodemon src/server.js",
@@ -40,6 +40,7 @@
     "jsonwebtoken": "^8.5.1",
     "knex": "^0.20.11",
     "lodash": "^4.17.15",
+    "matterwiki-client": "0.3.0",
     "mysql": "^2.18.1",
     "natural": "^0.6.3",
     "objection": "^2.1.3",
